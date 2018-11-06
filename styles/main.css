@@ -1,0 +1,47 @@
+.wrapper {
+	width: 99vw;
+	min-height: 100vh;
+	background: #dddddd;
+	box-sizing: border-box;
+	padding-top: 1px;
+	padding-bottom: 28vw;
+	position: relative;
+}
+
+.main_content {
+	display: flex;
+	flex-wrap: wrap;
+}
+.button {
+	display: block;
+	margin: 2%;
+	width: 28%;
+	height: 15vw;
+	font-size: 5vw;
+	background-color: #33aaaa;
+	border: solid 2px #00ffff;
+	color: #00ffff;
+}
+
+.btn_round {
+	border-radius: 50%;
+}
+
+.button.btn_round {
+	position: absolute;
+	margin: 0;
+	bottom: 2vw;
+	right: 2vw;
+	width: 20vw;
+	height: 20vw;
+	background-image: url(../images/kotiki-31.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+@media only screen and (max-width: 680px) {
+	.button {
+		width: 98%;
+		height: 30vmin;
+	}
+}
